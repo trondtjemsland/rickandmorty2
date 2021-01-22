@@ -744,7 +744,15 @@ var rickAndMortyArray = [
 ];
 
 for (var i = 0; i < rickAndMortyArray.length; i++) {
-  document.querySelector('.container').innerHTML +
+  // var deadOrUnknown;
+
+  // if (i !== rickAndMortyArray[i]) {
+  //   deadOrUnknown = 'dead';
+  // } else {
+  //   deadOrUnknown = 'unknown';
+  // }
+
+  document.querySelector('.container').innerHTML +=
     '<div class="card"><h2>' +
     rickAndMortyArray[i].name +
     '</h2><p>' +
