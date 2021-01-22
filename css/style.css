@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+}
+
+.logo {
+  width: 48px;
+  height: 63px;
+  padding: 20px;
+}
+
+.banner {
+  width: 60%;
+  margin: auto;
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+.bannerimg {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+}
+
+.heading {
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 70px;
+  column-gap: 60px;
+  margin-top: 200px;
+}
+
+.card {
+  width: 20%;
+  height: 438px;
+  margin: auto;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: white 0px 0px 20px -2px;
+}
+
+img {
+  width: 100%;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+
+
+@media (max-width: 1080px) {
+  .card {
+    width: 28%;
+    height: 468px;
+}
